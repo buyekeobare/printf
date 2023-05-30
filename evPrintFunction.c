@@ -16,7 +16,7 @@ int evPrintFunction(const char *st, int in)
 		{"lx", print_hex}, {"lX", print_upx}, {"hi", printt_int},
 		{"hd", printt_int}, {"hu", printt_unt}, {"ho", printt_oct},
 		{"hx", printt_hex}, {"hX", printt_upx}, {"#o", printtt_oct},
-		{"#x", printtt_hex}, {"#X", prin_upx}, {"#i", printInt},
+		{"#x", printtt_hex}, {"#X", print_upx}, {"#i", printInt},
 		{"#d", printInt}, {"#u", print_nt}, {"+i", prin_int},
 		{"+d", prin_int}, {"+u", print_nt}, {"+o", printOct},
 		{"+x", printHex}, {"+X", printUpx}, {" i", prins_int},

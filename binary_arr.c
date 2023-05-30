@@ -8,22 +8,22 @@
  * @limit: size of the binary
  * Return: Number of chars printed.
  */
-char *fillBinaryArr(char *bi, long int int, int is_neg, int limit)
+char *fillBinaryArr(char *bi, long int int_in, int is_neg, int limit)
 {
 	int n;
 
 	for (n = 0; n < limit; n++)
 		bi[n] = '0';
 	bi[limit] = '\0';
-	for (n = limit - 1; int > 1; n--)
+	for (n = limit - 1; int_in > 1; n--)
 	{
-		if (int == 2)
-			bi[i] = '0';
+		if (int_in == 2)
+			bi[n] = '0';
 		else
-			bi[n] = (int % 2) + '0';
-		int /= 2;
+			bi[n] = (int_in % 2) + '0';
+		int_in /= 2;
 	}
-	if (int != 0)
+	if (int_in != 0)
 		bi[n] = '1';
 	if (is_neg)
 	{

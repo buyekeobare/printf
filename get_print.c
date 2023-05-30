@@ -1,8 +1,8 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * getPrint - Selects the correct function to perform the operation.
  * @ss: Argument indentifier
- * @in: Index for argument indentifier
+ * @in: Indexi for argument indentifier
  * Return: Pointer to a function.
  */
 int (*getPrint(const char *ss, int in))(va_list, char *, unsigned int)
@@ -22,7 +22,7 @@ int (*getPrint(const char *ss, int in))(va_list, char *, unsigned int)
 		{"hX", printt_upx}, {"#o", printtt_oct},
 		{"#x", printtt_hex}, {"#X", printtt_upx},
 		{"#i", printInt}, {"#d", printInt},
-		{"#u", print_nt}, {"+i", prinpInt},
+		{"#u", print_nt}, {"+i", printInt},
 		{"+d", prin_int}, {"+u", print_nt},
 		{"+o", printOct}, {"+x", printHex},
 		{"+X", printUpx}, {" i", prins_int},
