@@ -20,7 +20,7 @@ int prin_int(va_list args, char *buf, unsigned int buff)
 	else
 	{
 		int_in = int_input;
-		buff = handlBbuf(buf, '+', buff);
+		buff = handlBuf(buf, '+', buff);
 	}
 	int_temp = int_in;
 	div = 1;
