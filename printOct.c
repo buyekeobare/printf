@@ -24,9 +24,9 @@ int printOct(va_list args, char *buf, unsigned int buff)
 		is_neg = 1;
 	}
 	bi = malloc(sizeof(char) * (32 + 1));
-	bi = fillBinaryArray(bi, int_input, is_neg, 32);
+	bi = fillBinaryArr(bi, int_input, is_neg, 32);
 	octal = malloc(sizeof(char) * (11 + 1));
-	octal = fillOctArray(bi, octal);
+	octal = fillOctArr(bi, octal);
 	for (first_digit = a = count = 0; octal[a]; a++)
 	{
 		if (octal[a] != '0' && first_digit == 0)

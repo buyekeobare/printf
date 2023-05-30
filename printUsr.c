@@ -23,8 +23,8 @@ int printUsr(va_list args, char *buf, unsigned int buff)
 			buff = handlBuf(buf, '\\', buff);
 			buff = handlBuf(buf, 'x', buff);
 			op = str[a];
-			bi = fillBinaryArray(bi, op, 0, 32);
-			hexadecimal = fillHexArray(bi, hexadecimal, 1, 8);
+			bi = fillBinaryArr(bi, op, 0, 32);
+			hexadecimal = fillHexArr(bi, hexadecimal, 1, 8);
 			buff = handlBuf(buf, hexadecimal[6], buff);
 			buff = handlBuf(buf, hexadecimal[7], buff);
 			sum += 3;
