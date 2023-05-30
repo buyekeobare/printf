@@ -1,9 +1,9 @@
 #include "mainh"
 
 /**
- * printBuf - To prints buffer
- * @buf: buffer pointer
- * @nbuf: number of bytes to print
+ * printBuf - To prints buffer.
+ * @buf: buffer pointer.
+ * @nbuf: number of bytes to print.
  * Return: number of bytes printed.
  */
 int printBuf(char *buf, unsigned int nbuf)

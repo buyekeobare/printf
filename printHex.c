@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * printHex - To prints a decimal in hexadecimal
- * @args: Input string
- * @buf: Buffer pointer
- * @buff: Index for buffer pointer
- * Return: number of chars printed
+ * printHex - To prints a decimal in hexadecimal.
+ * @args: Input string.
+ * @buf: Buffer pointer.
+ * @buff: Index for buffer pointer.
+ * Return: number of chars printed.
  */
 int printHex(va_list args, char *buf, unsigned int buff)
 {

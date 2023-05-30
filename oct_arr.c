@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * fillOctArr - To writes the character c to stdout
+ * fillOctArr - To writes the character c to stdout.
  *
  * @bi: An array where is stored the binary.
  * @oct:An  array where is stored the octal.

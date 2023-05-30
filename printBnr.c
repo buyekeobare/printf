@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * printBnr - To prints decimal in binary
- * @args: Input string
- * @buf: Buffer pointer
- * @buff: Index for buffer pointer
+ * printBnr - To prints decimal in binary.
+ * @args: Input string.
+ * @buf: Buffer pointer.
+ * @buff: Index for buffer pointer.
  * Return: Number of chars printed.
  */
 int printBnr(va_list args, char *buf, unsigned int buff)

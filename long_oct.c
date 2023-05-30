@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * fillLongOctArr - To calculates a long octal number
+ * fillLongOctArr - To calculates a long octal number.
  *
  * @bi: An array where is stored the binary.
  * @oct: An array where is stored the octal.

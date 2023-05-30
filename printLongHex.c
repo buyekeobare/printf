@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * print_hex - To prints a long decimal in hexadecimal
- * @args: Input string
- * @buf: Buffer pointer
- * @buff: Index for buffer pointer
- * Return: Number of chars printed
+ * print_hex - To prints a long decimal in hexadecimal.
+ * @args: Input string.
+ * @buf: Buffer pointer.
+ * @buff: Index for buffer pointer.
+ * Return: Number of chars printed.
  */
 int print_hex(va_list args, char *buf, unsigned int buff)
 {

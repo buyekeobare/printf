@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * evPrintFunction - To returns the amount of identifiers.
- * @st: argument indentifier
+ * @st: argument indentifier.
  * @in: index of argument identifier.
  * Return: amount of identifiers.
  */
