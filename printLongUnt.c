@@ -22,5 +22,5 @@ int print_unt(va_list args, char *buf, unsigned int buff)
 	{
 		buff = handlBuf(buf, ((int_in / div) % 10) + '0', buff);
 	}
-	return (i);
+	return (a);
 }

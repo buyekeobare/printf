@@ -17,7 +17,7 @@ int printRev(va_list args, char *buf, unsigned int buff)
 	str = va_arg(args, char *);
 	if (str == NULL)
 	{
-		for (i = 0; nill[a]; a++)
+		for (a = 0; nill[a]; a++)
 			buff = handlBuf(buf, nill[a], buff);
 		return (6);
 	}

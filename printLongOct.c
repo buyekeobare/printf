@@ -30,7 +30,7 @@ int print_oct(va_list args, char *buf, unsigned int buff)
 	octal = fillLongOctArr(bi, octal);
 	for (first_digit = a = count = 0; octal[a]; a++)
 	{
-		if (octal[i] != '0' && first_digit == 0)
+		if (octal[a] != '0' && first_digit == 0)
 			first_digit = 1;
 		if (first_digit)
 		{
