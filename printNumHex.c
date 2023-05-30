@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * printtt_hex - To print number in hex begining with zero
- * @args: Input string
- * @buf: Buffer pointer
- * @buff: Index for buffer pointer
- * Return: Number of chars printed
+ * printtt_hex - To print number in hex begining with zero.
+ * @args: Input string.
+ * @buf: Buffer pointer.
+ * @buff: Index for buffer pointer.
+ * Return: Number of chars printed.
  */
 int printtt_hex(va_list args, char *buf, unsigned int buff)
 {
