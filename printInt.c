@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * printInt - To prints an integer
- * @args: input string
- * @buf: buffer pointer
- * @buff: index for buffer pointer
+ * printInt - To prints an integer.
+ * @args: input string.
+ * @buf: buffer pointer.
+ * @buff: index for buffer pointer.
  * Return: Number of chars printed.
  */
 int printInt(va_list args, char *buf, unsigned int buff)

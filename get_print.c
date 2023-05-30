@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * getPrint - Selects the correct function to perform the operation.
- * @ss: Argument indentifier
- * @in: Indexi for argument indentifier
+ * @ss: Argument indentifier.
+ * @in: Indexi for argument indentifier.
  * Return: Pointer to a function.
  */
 int (*getPrint(const char *ss, int in))(va_list, char *, unsigned int)

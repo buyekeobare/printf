@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * fillHexArr - To writes the character c to stdout
+ * fillHexArr - To writes the character c to stdout.
  *
  * @bi: array where is stored the binary.
  * @hex: array where is stored the hexadecimal.
  * @is_upp: integer that determines if the hexadecimal array is
  * in uppercase or lowercase letter.
- * @limit: Size of hex
+ * @limit: Size of hex.
  * Return: Binary array.
  */
 char *fillHexArr(char *bi, char *hex, int is_upp, int limit)

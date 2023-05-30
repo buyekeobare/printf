@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * fillBinaryArr - To prints decimal in binary
- * @bi: pointer to binary
- * @int: input number
- * @is_neg: if input number is negative
- * @limit: size of the binary
+ * fillBinaryArr - To prints decimal in binary.
+ * @bi: pointer to binary.
+ * @int: input number.
+ * @is_neg: if input number is negative.
+ * @limit: size of the binary.
  * Return: Number of chars printed.
  */
 char *fillBinaryArr(char *bi, long int int_in, int is_neg, int limit)
