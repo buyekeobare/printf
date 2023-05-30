@@ -26,9 +26,9 @@ int printtt_hex(va_list args, char *buf, unsigned int buff)
 	buff = handlBuf(buf, '0', buff);
 	buff = handlBuf(buf, 'x', buff);
 	bi = malloc(sizeof(char) * (32 + 1));
-	bi = fillBinaryArray(bi, int_input, is_neg, 32);
+	bi = fillBinaryArr(bi, int_input, is_neg, 32);
 	hexadecimal = malloc(sizeof(char) * (8 + 1));
-	hexadecimal = fillHexArray(bi, hexadecimal, 0, 8);
+	hexadecimal = fillHexArr(bi, hexadecimal, 0, 8);
 	for (first_digit = a = count = 0; hexadecimal[a]; a++)
 	{
 		if (hexadecimal[a] != '0' && first_digit == 0)

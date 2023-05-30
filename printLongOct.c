@@ -25,12 +25,12 @@ int print_oct(va_list args, char *buf, unsigned int buff)
 	}
 
 	bi = malloc(sizeof(char) * (64 + 1));
-	bi = fillBinaryArray(bi, int_input, is_neg, 64);
+	bi = fillBinaryArr(bi, int_input, is_neg, 64);
 	octal = malloc(sizeof(char) * (22 + 1));
-	octal = fillLongOctArray(bi, octal);
+	octal = fillLongOctArr(bi, octal);
 	for (first_digit = a = count = 0; octal[a]; a++)
 	{
-		if (octal[i] != '0' && first_digit == 0)
+		if (octal[a] != '0' && first_digit == 0)
 			first_digit = 1;
 		if (first_digit)
 		{
