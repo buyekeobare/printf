@@ -26,9 +26,9 @@ int printt_upx(va_list args, char *buf, unsigned int buff)
 	}
 
 	bi = malloc(sizeof(char) * (16 + 1));
-	bi = fillBinaryArray(bi, int_input, is_neg, 16);
+	bi = fillBinaryArr(bi, int_input, is_neg, 16);
 	hexadecimal = malloc(sizeof(char) * (4 + 1));
-	hexadecimal = fillHexArray(bi, hexadecimal, 1, 4);
+	hexadecimal = fillHexArr(bi, hexadecimal, 1, 4);
 
 	for (first_digit = a = count = 0; hexadecimal[a]; a++)
 	{
@@ -36,7 +36,7 @@ int printt_upx(va_list args, char *buf, unsigned int buff)
 			first_digit = 1;
 		if (first_digit)
 		{
-			ibuf = handlBuf(buf, hexadecimal[a], buff);
+			buff = handlBuf(buf, hexadecimal[a], buff);
 			count++;
 		}
 	}

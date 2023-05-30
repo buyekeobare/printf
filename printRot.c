@@ -27,7 +27,7 @@ int printRot(va_list args, char *buf, unsigned int buff)
 	{
 		for (c = b = 0; alf[b]; b++)
 		{
-			if (str[i] == alf[b])
+			if (str[a] == alf[b])
 			{
 				c = 1;
 				buff = handlBuf(buf, rot[b], buff);

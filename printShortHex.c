@@ -26,12 +26,12 @@ int printt_hex(va_list args, char *buf, unsigned int buff)
 	}
 
 	bi = malloc(sizeof(char) * (16 + 1));
-	bi = fillBinaryArray(bi, int_input, is_neg, 16);
+	bi = fillBinaryArr(bi, int_input, is_neg, 16);
 	hexadecimal = malloc(sizeof(char) * (4 + 1));
-	hexadecimal = fillHexArray(bi, hexadecimal, 0, 4);
+	hexadecimal = fillHexArr(bi, hexadecimal, 0, 4);
 	for (first_digit = a = count = 0; hexadecimal[a]; a++)
 	{
-		if (hexadecimal[i] != '0' && first_digit == 0)
+		if (hexadecimal[a] != '0' && first_digit == 0)
 			first_digit = 1;
 		if (first_digit)
 		{
