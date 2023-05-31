@@ -3,7 +3,7 @@
  * printt_hex - To print a short decimal in hexadecimal
  * @args: Input string
  * @buf: Buffer pointer
- * @ibuf: Index for buffer pointer
+ * @buff: Index for buffer pointer
  * Return: Number of chars printed
  */
 int printt_hex(va_list args, char *buf, unsigned int buff)
