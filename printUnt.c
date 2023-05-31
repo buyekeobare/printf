@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * printUnt - To print an unsigned int
+ * print_nt - To print an unsigned int
  * @args: Number to print
  * @buf: Buffer pointer
  * @buff: Index for buffer pointer
  * Return: Number of chars printed.
  */
-int printUnt(va_list args, char *buf, unsigned int buff)
+int print_nt(va_list args, char *buf, unsigned int buff)
 {
 	unsigned int int_in, int_temp, a, div;
 

@@ -36,17 +36,18 @@ int printAdd(va_list args, char *buf, unsigned int buff)
 	hex = fillHexArr(bi, hex, 0, 16);
 	buff = handlBuf(buf, '0', buff);
 	buff = handlBuf(buf, 'x', buff);
-	for (first_d = a = count = 0; hex[a]; a++)
+	for (first_d = a = c = 0; hex[a]; a++)
 	{
 		if (hex[a] != '0' && first_d == 0)
 			first_d = 1;
 		if (first_d)
 		{
 			buff = handlBuf(buf, hex[a], buff);
-			count++;
+			c++;
 		}
 	}
+
 	free(bi);
 	free(hex);
-	return (count + 2);
+	return (c + 2);
 }

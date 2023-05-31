@@ -7,7 +7,7 @@
  *
  * Return: Binary array.
  */
-char *fillOctArray(char *bi, char *oct)
+char *fillOctArr(char *bi, char *oct)
 {
 	int op, a, b, oc, limit;
 
