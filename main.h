@@ -7,8 +7,8 @@
 #include <unistd.h>
 
 /**
- * struct print - a struct that stores printer's function
- * @type_arg: identifier
+ * struct print - a struct that stores printer's function.
+ * @type_arg: identifier.
  * @k: a pointer to the printer function.
  */
 
