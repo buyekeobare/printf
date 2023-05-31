@@ -3,7 +3,7 @@
  * fillOctArr - To writes the character c to stdout.
  *
  * @bi: An array where is stored the binary.
- * @oct:An  array where is stored the octal.
+ * @oct: An  array where is stored the octal.
  *
  * Return: Binary array.
  */
