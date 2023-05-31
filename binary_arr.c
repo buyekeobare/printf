@@ -3,7 +3,7 @@
 /**
  * fillBinaryArr - To prints decimal in binary.
  * @bi: pointer to binary.
- * @int: input number.
+ * @int_in: input number.
  * @is_neg: if input number is negative.
  * @limit: size of the binary.
  * Return: Number of chars printed.
