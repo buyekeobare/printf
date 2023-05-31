@@ -15,9 +15,8 @@
 typedef struct print
 {
 	char *type_arg;
-	int (*k)(va_list, char *, unsigned int);
+	int (*k)(va_list, char *, unsigned int); 
 } print_f;
-
 int _printf(const char *format, ...);
 int printPrg(va_list __attribute__((unused)), char *, unsigned int);
 int printChr(va_list args, char *buf, unsigned int buff);
