@@ -15,7 +15,7 @@
 typedef struct print
 {
 	char *type_arg;
-	int (*k)(va_list, char *, unsigned int); 
+	int (*k)(va_list, char *, unsigned int);
 
 } print_f;
 
