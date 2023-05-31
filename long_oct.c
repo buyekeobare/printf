@@ -18,7 +18,7 @@ char *fillLongOctArr(char *bi, char *oct)
 			limit = 4;
 		else
 			limit = 1;
-		for (op = 0, b= 1; b <= limit; b *= 2, a--)
+		for (op = 0, b = 1; b <= limit; b *= 2, a--)
 			op = ((bi[a] - '0') * b) + op;
 		a++;
 		oct[oc] = op + '0';
