@@ -10,12 +10,11 @@
  * struct print - a struct that stores printer's function
  * @type_arg: identifier
  * @k: a pointer to the printer function.
-*/
+ */
 
 typedef struct print
 {
 	char *type_arg;
-
 	int (*k)(va_list, char *, unsigned int);
 
 } print_f;
