@@ -17,6 +17,10 @@ A printf() function that prints output to stdout, according to format and other 
 
 - Gain the confidence to solve real world problems
 
+## 🛠 Technology
+
+- C Programming
+
 ## 👤 Coded by:
 
 - 👤 Buyeke Obare https://github.com/buyekeobare
